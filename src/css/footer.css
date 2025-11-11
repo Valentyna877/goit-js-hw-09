@@ -1,11 +1,14 @@
 .footer {
-  padding: 20px 0;
+  padding: 80px 0;
 }
 .footer-desc {
   text-align: center;
+  font-size: 20px;
+  font-weight: 500;
 }
 .footer-link {
   position: relative;
+  font-size: 24px;
 }
 .footer-link::before {
   content: '';
@@ -16,6 +19,6 @@
   z-index: -1;
   width: 110%;
   height: 24%;
-  background-color: #41d1ff;
+  background-color: #ff9000;
   transition: 200ms ease;
 }

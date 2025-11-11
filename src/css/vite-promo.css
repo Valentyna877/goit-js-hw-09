@@ -26,7 +26,12 @@
 .main-title-gradient {
   display: block;
   font-size: 2em;
-  background-image: linear-gradient(120deg, #bd34fe 30%, #41d1ff);
+  /* background-image: linear-gradient(120deg, #bd34fe 30%, #41d1ff); */
+  /* background-image: linear-gradient(120deg, #ff9000 30%, #d36410); */
+  background-image: linear-gradient(120deg, #ff9000, #ed8540, #f2ba83);
+  /* background-image: linear-gradient(120deg, #ff9000 0%, #f2ba83 100%); */
+  padding-top: 50px;
+  /* text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); */
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
